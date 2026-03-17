@@ -1,0 +1,297 @@
+[
+    {
+        "id": "design-001",
+        "user_id": "user-001",
+        "name": "Home Gym Basics",
+        "room": {
+            "id": "room-001",
+            "width": 4.0,
+            "length": 5.0,
+            "height": 2.5,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 0.0
+        },
+        "room_finish": {
+            "wall_color": "#FFFFFF",
+            "flooring_type": "rubber_tile",
+            "flooring_color": "#2C2C2C",
+            "ceiling_color": "#F5F5F5",
+            "ceiling_type": "standard",
+            "lighting_type": "led",
+            "lighting_intensity": 0.8,
+            "lighting_color_temp": 4000
+        },
+        "placements": [
+            {
+                "id": "placement-001",
+                "equipment_id": "eq-power-rack",
+                "pos_x": -0.8,
+                "pos_y": 0.0,
+                "pos_z": -1.5,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-002",
+                "equipment_id": "eq-flat-bench",
+                "pos_x": 0.8,
+                "pos_y": 0.0,
+                "pos_z": -1.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-003",
+                "equipment_id": "eq-dumbbell-rack",
+                "pos_x": 1.5,
+                "pos_y": 0.0,
+                "pos_z": 0.5,
+                "rot_ix": 0.0,
+                "rot_iy": 0.7071,
+                "rot_iz": 0.0,
+                "rot_r": 0.7071,
+                "scale": 1.0,
+                "is_locked": true
+            },
+            {
+                "id": "placement-004",
+                "equipment_id": "eq-treadmill",
+                "pos_x": -1.2,
+                "pos_y": 0.0,
+                "pos_z": 1.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-005",
+                "equipment_id": "eq-cable-machine",
+                "pos_x": 0.0,
+                "pos_y": 0.0,
+                "pos_z": -2.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            }
+        ],
+        "is_favorite": true,
+        "created_at": "2025-11-15T10:30:00Z",
+        "updated_at": "2025-12-01T14:22:00Z"
+    },
+    {
+        "id": "design-002",
+        "user_id": "user-002",
+        "name": "Garage Powerlifting",
+        "room": {
+            "id": "room-002",
+            "width": 6.0,
+            "length": 8.0,
+            "height": 3.0,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 0.0
+        },
+        "room_finish": {
+            "wall_color": "#E0E0E0",
+            "flooring_type": "concrete",
+            "flooring_color": "#9E9E9E",
+            "ceiling_color": "#D0D0D0",
+            "ceiling_type": "exposed",
+            "lighting_type": "fluorescent",
+            "lighting_intensity": 0.9,
+            "lighting_color_temp": 5000
+        },
+        "placements": [
+            {
+                "id": "placement-006",
+                "equipment_id": "eq-power-rack",
+                "pos_x": -1.5,
+                "pos_y": 0.0,
+                "pos_z": -2.5,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": true
+            },
+            {
+                "id": "placement-007",
+                "equipment_id": "eq-power-rack",
+                "pos_x": 1.5,
+                "pos_y": 0.0,
+                "pos_z": -2.5,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": true
+            },
+            {
+                "id": "placement-008",
+                "equipment_id": "eq-deadlift-platform",
+                "pos_x": 0.0,
+                "pos_y": 0.0,
+                "pos_z": 0.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-009",
+                "equipment_id": "eq-flat-bench",
+                "pos_x": -2.0,
+                "pos_y": 0.0,
+                "pos_z": 1.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-010",
+                "equipment_id": "eq-incline-bench",
+                "pos_x": 2.0,
+                "pos_y": 0.0,
+                "pos_z": 1.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-011",
+                "equipment_id": "eq-bumper-plates",
+                "pos_x": -2.5,
+                "pos_y": 0.0,
+                "pos_z": -1.5,
+                "rot_ix": 0.0,
+                "rot_iy": 0.3827,
+                "rot_iz": 0.0,
+                "rot_r": 0.9239,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-012",
+                "equipment_id": "eq-dumbbell-rack",
+                "pos_x": 2.5,
+                "pos_y": 0.0,
+                "pos_z": -1.0,
+                "rot_ix": 0.0,
+                "rot_iy": -0.7071,
+                "rot_iz": 0.0,
+                "rot_r": 0.7071,
+                "scale": 1.0,
+                "is_locked": true
+            },
+            {
+                "id": "placement-013",
+                "equipment_id": "eq-ghd",
+                "pos_x": 0.0,
+                "pos_y": 0.0,
+                "pos_z": 2.5,
+                "rot_ix": 0.0,
+                "rot_iy": 1.0,
+                "rot_iz": 0.0,
+                "rot_r": 0.0,
+                "scale": 1.0,
+                "is_locked": false
+            }
+        ],
+        "is_favorite": false,
+        "created_at": "2025-10-03T08:15:00Z",
+        "updated_at": "2025-10-20T19:45:00Z"
+    },
+    {
+        "id": "design-003",
+        "user_id": "user-003",
+        "name": "Compact Apartment Gym",
+        "room": {
+            "id": "room-003",
+            "width": 3.0,
+            "length": 3.0,
+            "height": 2.4,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 0.0
+        },
+        "room_finish": {
+            "wall_color": "#F0F0F0",
+            "flooring_type": "foam",
+            "flooring_color": "#3A3A5C",
+            "ceiling_color": "#FFFFFF",
+            "ceiling_type": "standard",
+            "lighting_type": "recessed",
+            "lighting_intensity": 0.7,
+            "lighting_color_temp": 3500
+        },
+        "placements": [
+            {
+                "id": "placement-014",
+                "equipment_id": "eq-adjustable-dumbbell",
+                "pos_x": -0.8,
+                "pos_y": 0.0,
+                "pos_z": -0.5,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-015",
+                "equipment_id": "eq-folding-bench",
+                "pos_x": 0.5,
+                "pos_y": 0.0,
+                "pos_z": 0.0,
+                "rot_ix": 0.0,
+                "rot_iy": 0.0,
+                "rot_iz": 0.0,
+                "rot_r": 1.0,
+                "scale": 1.0,
+                "is_locked": false
+            },
+            {
+                "id": "placement-016",
+                "equipment_id": "eq-resistance-bands",
+                "pos_x": 0.0,
+                "pos_y": 0.0,
+                "pos_z": 0.8,
+                "rot_ix": 0.0,
+                "rot_iy": 0.7071,
+                "rot_iz": 0.0,
+                "rot_r": 0.7071,
+                "scale": 1.0,
+                "is_locked": false
+            }
+        ],
+        "is_favorite": true,
+        "created_at": "2025-12-20T16:00:00Z",
+        "updated_at": "2026-01-05T11:30:00Z"
+    }
+]

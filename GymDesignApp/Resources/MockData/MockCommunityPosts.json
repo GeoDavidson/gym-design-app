@@ -1,0 +1,110 @@
+[
+    {
+        "id": "post-001",
+        "user_id": "user-101",
+        "user_name": "IronMike_Fit",
+        "user_photo_url": "https://example.com/avatars/ironmike.jpg",
+        "design_id": "design-101",
+        "design_name": "Ultimate Basement Power Den",
+        "image_urls": [
+            "https://example.com/designs/101/img1.jpg",
+            "https://example.com/designs/101/img2.jpg",
+            "https://example.com/designs/101/img3.jpg"
+        ],
+        "thumbnail_url": "https://example.com/designs/101/thumb.jpg",
+        "description": "Finally finished my basement gym build! Two squat racks, a full set of bumper plates, and a dedicated deadlift platform. Took 3 months to get everything dialed in. The rubber flooring was a game changer for noise reduction. Highly recommend planning your layout in AR first -- saved me from buying a cable machine that wouldn't have fit.",
+        "equipment_tags": ["Power Rack", "Deadlift Platform", "Bumper Plates", "Flat Bench", "Dumbbell Rack"],
+        "room_dimensions": "7.0m x 5.5m",
+        "total_cost": 8750.00,
+        "like_count": 142,
+        "comment_count": 23,
+        "created_at": "2026-02-10T09:15:00Z",
+        "is_liked": false
+    },
+    {
+        "id": "post-002",
+        "user_id": "user-102",
+        "user_name": "YogaAndIron",
+        "user_photo_url": "https://example.com/avatars/yogairon.jpg",
+        "design_id": "design-102",
+        "design_name": "Hybrid Yoga & Strength Studio",
+        "image_urls": [
+            "https://example.com/designs/102/img1.jpg",
+            "https://example.com/designs/102/img2.jpg"
+        ],
+        "thumbnail_url": "https://example.com/designs/102/thumb.jpg",
+        "description": "Created a dual-purpose space that works for both yoga flow sessions and strength training. One side has foam flooring with open space for mat work, the other side has rubber tiles with a compact rack and adjustable dumbbells. The AR tool helped me figure out the exact dividing line to maximize both zones.",
+        "equipment_tags": ["Adjustable Dumbbells", "Half Rack", "Yoga Mat Area", "Resistance Bands", "Kettlebells"],
+        "room_dimensions": "5.0m x 4.0m",
+        "total_cost": 3200.00,
+        "like_count": 89,
+        "comment_count": 15,
+        "created_at": "2026-02-18T14:30:00Z",
+        "is_liked": true
+    },
+    {
+        "id": "post-003",
+        "user_id": "user-103",
+        "user_name": "GarageGymBro",
+        "user_photo_url": null,
+        "design_id": "design-103",
+        "design_name": "Two-Car Garage Transformation",
+        "image_urls": [
+            "https://example.com/designs/103/img1.jpg",
+            "https://example.com/designs/103/img2.jpg",
+            "https://example.com/designs/103/img3.jpg",
+            "https://example.com/designs/103/img4.jpg"
+        ],
+        "thumbnail_url": "https://example.com/designs/103/thumb.jpg",
+        "description": "Converted half of my two-car garage into a serious training space. Concrete floors with horse stall mats, exposed ceiling for pull-up bar mounting. The key was leaving enough clearance for overhead press inside the rack. Used the room scanner to map out the garage door tracks and water heater -- obstacles I would have missed on paper.",
+        "equipment_tags": ["Power Rack", "Cable Machine", "Rowing Machine", "Pull-Up Bar", "Plate Storage", "GHD"],
+        "room_dimensions": "6.0m x 4.5m",
+        "total_cost": 6500.00,
+        "like_count": 217,
+        "comment_count": 41,
+        "created_at": "2026-01-25T11:00:00Z",
+        "is_liked": false
+    },
+    {
+        "id": "post-004",
+        "user_id": "user-104",
+        "user_name": "MinimalistLifter",
+        "user_photo_url": "https://example.com/avatars/minimalist.jpg",
+        "design_id": "design-104",
+        "design_name": "Micro Studio Essentials",
+        "image_urls": [
+            "https://example.com/designs/104/img1.jpg"
+        ],
+        "thumbnail_url": "https://example.com/designs/104/thumb.jpg",
+        "description": "Proof that you don't need a huge space to train effectively. This 3x3m corner of my apartment has everything I need: adjustable dumbbells up to 90 lbs, a foldable bench, and a door-frame pull-up bar. Foam tiles protect the floor and keep the neighbors happy. Total investment under $1k and I haven't missed a workout since setting it up.",
+        "equipment_tags": ["Adjustable Dumbbells", "Folding Bench", "Pull-Up Bar", "Resistance Bands"],
+        "room_dimensions": "3.0m x 3.0m",
+        "total_cost": 950.00,
+        "like_count": 305,
+        "comment_count": 58,
+        "created_at": "2026-03-01T07:45:00Z",
+        "is_liked": true
+    },
+    {
+        "id": "post-005",
+        "user_id": "user-105",
+        "user_name": "CrossFitKara",
+        "user_photo_url": "https://example.com/avatars/crossfitkara.jpg",
+        "design_id": "design-105",
+        "design_name": "Backyard CrossFit Box",
+        "image_urls": [
+            "https://example.com/designs/105/img1.jpg",
+            "https://example.com/designs/105/img2.jpg",
+            "https://example.com/designs/105/img3.jpg"
+        ],
+        "thumbnail_url": "https://example.com/designs/105/thumb.jpg",
+        "description": "Built out a shed in the backyard as a dedicated CrossFit space. Turf flooring for sled pushes, a rig along the back wall, and enough room for barbell complexes. The AR layout tool was essential for making sure the rower and ski erg fit without blocking the rig. Added LED strip lighting on the ceiling for those early morning WODs.",
+        "equipment_tags": ["CrossFit Rig", "Rowing Machine", "Ski Erg", "Plyo Box", "Wall Balls", "Barbell Set", "Sled"],
+        "room_dimensions": "8.0m x 6.0m",
+        "total_cost": 12400.00,
+        "like_count": 178,
+        "comment_count": 34,
+        "created_at": "2026-02-28T16:20:00Z",
+        "is_liked": false
+    }
+]
