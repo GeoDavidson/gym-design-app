@@ -115,10 +115,10 @@
 		AA9D87AC6D58D80C9464587F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE5732B7D44A499DFC924875 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		DC04F9E7C1CE91F4584727CC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		4E198C1519F8DA43AFB4BCF0 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color+Theme.swift; sourceTree = "<group>"; };
-		0F59C9186FAEC55F1442527B /* Entity+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity+Helpers.swift; sourceTree = "<group>"; };
-		D79F25396D2B510E979FF4A7 /* simd+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simd+Helpers.swift; sourceTree = "<group>"; };
-		AB0FBCDDE5C5F2D303147BEE /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View+Modifiers.swift; sourceTree = "<group>"; };
+		4E198C1519F8DA43AFB4BCF0 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		0F59C9186FAEC55F1442527B /* Entity+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Helpers.swift"; sourceTree = "<group>"; };
+		D79F25396D2B510E979FF4A7 /* simd+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "simd+Helpers.swift"; sourceTree = "<group>"; };
+		AB0FBCDDE5C5F2D303147BEE /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
 		821BA9DA76BD849F8EAACB67 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 		1BC6E390D6C4E1AA1EE899AA /* CommunityPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPost.swift; sourceTree = "<group>"; };
 		CB7B6E839184D0EEAB347C7A /* CostEstimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostEstimate.swift; sourceTree = "<group>"; };
