@@ -68,4 +68,4 @@ playground.xcworkspace
 *.hmap
 *.orig
 .build/
-profile
+/profile
