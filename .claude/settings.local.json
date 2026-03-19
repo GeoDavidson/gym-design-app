@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(gh repo:*)",
+      "Bash(find /c/Users/georg/source/gym-design-app -type f \\\\\\(-name *.rules -o -name *firebase* -o -name *FirebaseAuth* -o -name *GoogleService* -o -name *.json \\\\\\))",
+      "Bash(find /c/Users/georg/source/gym-design-app/GymDesignApp -type f -name *)",
+      "Bash(python:*)",
+      "Bash(git push:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(grep -r \"\\\\.listen\\\\|\\\\.fetch\\\\|\\\\.save\" /c/Users/georg/source/gym-design-app/GymDesignApp/ViewModels/*.swift)",
+      "Bash(find /c/Users/georg/source/gym-design-app/GymDesignApp/Resources -type f -name *.swift)",
+      "Bash(ls:*)"
+    ]
+  }
+}

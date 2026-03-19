@@ -70,7 +70,7 @@ final class AuthViewModel: ObservableObject {
 
     // MARK: Initialization
 
-    init(authService: AuthService) {
+    init(authService: AuthService = AuthService()) {
         self.authService = authService
         setupBindings()
         setupValidation()

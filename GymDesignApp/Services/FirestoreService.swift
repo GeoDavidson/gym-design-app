@@ -269,7 +269,11 @@ final class FirestoreService: FirestoreServiceProtocol {
         case .arrayContains:
             return query.whereField(filter.field, arrayContains: filter.value)
         case .isIn:
-            return query.whereField(filter.field, in: filter.value as! [Any])
+            guard let array = filter.value as? [Any] else {
+                print("[FirestoreService] .isIn filter for '\(filter.field)' requires an array value; skipping filter.")
+                return query
+            }
+            return query.whereField(filter.field, in: array)
         }
     }
 }

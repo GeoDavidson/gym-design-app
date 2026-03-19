@@ -24,6 +24,7 @@ final class DesignSubmissionViewModel: ObservableObject {
     private let firestoreService: FirestoreService
     private let db = Firestore.firestore()
     private var cancellables = Set<AnyCancellable>()
+    private var listenerTask: Task<Void, Never>?
 
     // MARK: - Initialization
 
@@ -124,16 +125,23 @@ final class DesignSubmissionViewModel: ObservableObject {
 
     /// Starts a real-time listener for submission status changes.
     func listenForUpdates(submissionID: String) {
+        listenerTask?.cancel()
+
         let stream: AsyncStream<DesignSubmission?> = firestoreService.listen(
             collection: AppConstants.Collections.submissions,
             id: submissionID
         )
 
-        Task {
+        listenerTask = Task {
             for await updatedSubmission in stream {
+                guard !Task.isCancelled else { break }
                 self.submission = updatedSubmission
             }
         }
+    }
+
+    deinit {
+        listenerTask?.cancel()
     }
 
     // MARK: - Validation

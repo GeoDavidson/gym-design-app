@@ -18,12 +18,12 @@ struct GymDesignApp: App {
     private var rootView: some View {
         switch authViewModel.authState {
         case .splash:
-            SplashView()
+            SplashView(onFinished: { authViewModel.checkOnboardingStatus() })
 
         case .onboarding:
-            OnboardingContainerView()
+            OnboardingContainerView(onComplete: { authViewModel.completeOnboarding() })
 
-        case .unauthenticated:
+        case .login:
             LoginView()
 
         case .authenticated:

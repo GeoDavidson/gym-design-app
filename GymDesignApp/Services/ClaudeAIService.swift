@@ -41,8 +41,16 @@ final class ClaudeAIService: Sendable {
 
     // MARK: - Configuration
 
-    /// Replace with your actual API key or load from a secure source.
-    private let apiKey: String = "YOUR_CLAUDE_API_KEY"
+    private let apiKey: String = {
+        guard let path = Bundle.main.path(forResource: "Secrets", ofType: "plist"),
+              let dict = NSDictionary(contentsOfFile: path),
+              let key = dict["CLAUDE_API_KEY"] as? String,
+              key != "YOUR_API_KEY_HERE"
+        else {
+            fatalError("Missing CLAUDE_API_KEY in Secrets.plist — see Secrets.plist.example")
+        }
+        return key
+    }()
     private let endpoint = AppConstants.API.claudeAPIEndpoint
     private let model = AppConstants.API.claudeModel
     private let anthropicVersion = "2023-06-01"

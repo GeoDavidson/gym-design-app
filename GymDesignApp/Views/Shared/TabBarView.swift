@@ -32,21 +32,28 @@ struct TabBarView: View {
     @State private var selectedTab: AppTab = .home
     @Namespace private var tabNamespace
 
+    private var selectedTabIndex: Binding<Int> {
+        Binding(
+            get: { selectedTab.rawValue },
+            set: { selectedTab = AppTab(rawValue: $0) ?? .home }
+        )
+    }
+
     var body: some View {
         ZStack(alignment: .bottom) {
             // MARK: - Content
             Group {
                 switch selectedTab {
                 case .home:
-                    HomeViewPlaceholder()
+                    HomeView(selectedTab: selectedTabIndex)
                 case .design:
-                    ARDesignViewPlaceholder()
+                    ARDesignView()
                 case .catalog:
-                    CatalogViewPlaceholder()
+                    CatalogView()
                 case .community:
-                    CommunityGalleryViewPlaceholder()
+                    CommunityGalleryView()
                 case .profile:
-                    ProfileViewPlaceholder()
+                    ProfileView()
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -114,52 +121,6 @@ struct TabBarView: View {
     }
 }
 
-// MARK: - Placeholder Views (replaced once real views exist)
-
-private struct HomeViewPlaceholder: View {
-    var body: some View {
-        ZStack {
-            Color.appBackground.ignoresSafeArea()
-            Text("Home").foregroundStyle(.white)
-        }
-    }
-}
-
-private struct ARDesignViewPlaceholder: View {
-    var body: some View {
-        ZStack {
-            Color.appBackground.ignoresSafeArea()
-            Text("AR Design").foregroundStyle(.white)
-        }
-    }
-}
-
-private struct CatalogViewPlaceholder: View {
-    var body: some View {
-        ZStack {
-            Color.appBackground.ignoresSafeArea()
-            Text("Catalog").foregroundStyle(.white)
-        }
-    }
-}
-
-private struct CommunityGalleryViewPlaceholder: View {
-    var body: some View {
-        ZStack {
-            Color.appBackground.ignoresSafeArea()
-            Text("Community").foregroundStyle(.white)
-        }
-    }
-}
-
-private struct ProfileViewPlaceholder: View {
-    var body: some View {
-        ZStack {
-            Color.appBackground.ignoresSafeArea()
-            Text("Profile").foregroundStyle(.white)
-        }
-    }
-}
 
 #Preview {
     TabBarView()

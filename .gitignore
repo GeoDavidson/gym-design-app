@@ -38,6 +38,7 @@ fastlane/test_output
 *.p12
 *.key
 GoogleService-Info.plist
+Secrets.plist
 
 # Firebase
 firebase-debug.log
